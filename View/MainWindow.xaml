@@ -67,6 +67,7 @@
                        FontWeight="SemiBold"
                        Margin="32,10,0,0"
                        Foreground="#583217"/>
+
             <StackPanel Grid.Row="1"
                         Grid.Column="1"
                         HorizontalAlignment="Center"
@@ -79,10 +80,12 @@
                             Margin="0 40 0 50"/>
                     <TextBox Width="300"
                              FontSize="17" 
-                             Height="35" 
+                             Height="34" 
                              Background="#33540B0E" 
-                             TextAlignment="Center"/>
+                             TextAlignment="Center"
+                              HorizontalAlignment="Center"/>
                 </StackPanel>
+
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center">
@@ -94,12 +97,12 @@
                              Background="#33540B0E" 
                              TextAlignment="Center"/>
                 </StackPanel>
-                <StackPanel Orientation="Horizontal"
-                            HorizontalAlignment="Stretch"
-                            VerticalAlignment="Stretch">
 
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center">
                     <StackPanel Orientation="Horizontal"
-                            Margin="0 30 0 0">
+                            Margin="0 30 10 0">
 
                         <TextBox Width="300"
                              FontSize="17"
@@ -136,5 +139,20 @@
                       Margin="61,267,270,41" 
                       Width="NaN"/>
         </Grid>
+        <!--<Button x:Name="КнопкаСоздать" 
+            Height="30"  Width="190" 
+            FontSize="14"
+            FontWeight="SemiBold"
+            Foreground="#583217" 
+            Background="#66550C0F"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top" 
+            Margin="0,441,0,0"
+            Content="Создать учетную запись" 
+            Click="Новый клик">
+            
+        </Button>-->
+       
+        
     </Grid>
 </Window>

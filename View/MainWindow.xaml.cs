@@ -24,5 +24,13 @@ namespace Task1._2
         {
             InitializeComponent();
         }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
+        
     }
+   
 }
