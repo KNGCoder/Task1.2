@@ -30,7 +30,10 @@ namespace Task1._2
             throw new NotImplementedException();
         }
 
-        
+        private void Knp_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
    
 }
