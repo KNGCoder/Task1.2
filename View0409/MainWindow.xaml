@@ -82,8 +82,7 @@
                              FontSize="17" 
                              Height="34" 
                              Background="#33540B0E" 
-                             TextAlignment="Center"
-                              HorizontalAlignment="Center"/>
+                             />
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal"
@@ -95,7 +94,7 @@
                              FontSize="17" 
                              Height="35" 
                              Background="#33540B0E" 
-                             TextAlignment="Center"/>
+                             />
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal"
